@@ -15,8 +15,8 @@ int main() {
 }
 
 int tworaisetom(int m) {
-    if (m > 1) {
-        return 2 * tworaisetom(m - 1);
+    if (m >= 1) {
+        return 2 * tworaisetom(m-1); //2 * 2^(m-1)
     } else {
         return 1;
     }
