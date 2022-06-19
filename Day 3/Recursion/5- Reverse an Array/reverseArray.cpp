@@ -1,33 +1,19 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int helper(char str[], int s, int e){
-    
-    int t = str[s];
-    str[s] = str[e];
-    str[e] = t;
+void reverseArray(string& str){
+    int n = str.length();
+    cout<<n<<"\n";
 
-    if (s < e+1)
-        return helper(str, s+1, e-1);
-
-    return true;
-}
-
-bool isPalindrome(char str[]){
-    int n = strlen(str);
-
-    if (n==0)
-        return true;
-    
-    return helper(str, 0, n-1);
+    for (int i = 0; i < n / 2; i++)
+        swap(str[i], str[n - i - 1]);
 }
 
 int main() {
-    char str[] = "yeeah";
+    string str = "nam-redips";
     cout<<str<<"\n";
 
-    if(isPalindrome(str))
-        cout<<"Yes, It's a Palindrome";
-    else
-        cout<<"No, It's not a Palindrome";
+    reverseArray(str);
+    cout<<str;
+    return 0;
 }
