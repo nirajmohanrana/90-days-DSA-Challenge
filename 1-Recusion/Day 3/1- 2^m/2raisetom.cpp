@@ -3,6 +3,7 @@ using namespace std;
 
 int tworaisetom(int);
 
+// DRIVER CODE
 int main() {
     int m, result;
 
@@ -14,6 +15,7 @@ int main() {
     return 0;
 }
 
+// RECUSRION
 int tworaisetom(int m) {
     if (m >= 1) {
         return 2 * tworaisetom(m-1); //2 * 2^(m-1)

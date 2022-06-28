@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#define N 4
+#define N 24
 using namespace std;
 
 void printSoln(int board[N][N])

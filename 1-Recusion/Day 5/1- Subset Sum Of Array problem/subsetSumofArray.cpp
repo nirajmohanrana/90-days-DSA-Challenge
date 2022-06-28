@@ -16,6 +16,7 @@ class Subset_Sum
             
         if (n < 0 || sum < 0)
             return false; 
+            
         bool include = subsetSum_Recursive(arr, n - 1, sum - arr[n]); 
         bool exclude = subsetSum_Recursive(arr, n - 1, sum);
         return include || exclude;
