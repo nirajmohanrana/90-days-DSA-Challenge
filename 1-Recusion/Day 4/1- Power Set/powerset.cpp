@@ -9,8 +9,8 @@ void powerset(string str, string tAns ="  ", int i = 0) {
         return;
     }
 
-    powerset(str,tAns+str[i],i+1);
-    powerset(str,tAns,i+1);
+    powerset(str,tAns+str[i],i+1); //take
+    powerset(str,tAns,i+1); //not take
 }
 
 int main() {

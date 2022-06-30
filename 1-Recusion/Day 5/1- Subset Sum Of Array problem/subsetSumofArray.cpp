@@ -17,7 +17,7 @@ class Subset_Sum
         if (n < 0 || sum < 0)
             return false; 
             
-        bool include = subsetSum_Recursive(arr, n - 1, sum - arr[n]); 
+        bool include = subsetSum_Recursive(arr, n - 1, sum - arr[n]);
         bool exclude = subsetSum_Recursive(arr, n - 1, sum);
         return include || exclude;
     }
@@ -27,7 +27,7 @@ int main()
 {
     int i, n, sum;
     Subset_Sum S;
-    cout << "Enter the number of elements in the set" << endl;
+    cout << "Enter t4he number of elements in the set" << endl;
     cin >> n;
     int a[n];
     cout << "Enter the values" << endl;
