@@ -14,4 +14,4 @@
 
 **Day 15**: Int Array Pointers `1.7.22|☑️`
 
-**Day 16**: Char Array Pointers `2.7.22|`
+**Day 16**: Char Array Pointers & Function Pointers & Double Pointers `2.7.22|`
