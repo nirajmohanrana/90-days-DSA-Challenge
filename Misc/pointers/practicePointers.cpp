@@ -11,6 +11,11 @@ void update(int *p) // For Q. 17th
      *p = (*p) * 2;
 }
 
+void fun(int a[])
+{
+     cout << a[0] << " ";
+}
+
 int main()
 {
      cout << "===============================================" << endl
@@ -211,6 +216,13 @@ int main()
      */
      // ANS:- 111
 
+     // 21th
+     /*
+          int a[] = {1, 2, 3, 4};
+          fun(a + 1);
+          cout << a[0];
+     */
+     // ANS:- 2 1
      // ENDS HERE
      cout << endl
           << endl
