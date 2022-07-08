@@ -6,7 +6,7 @@ void findCombinations(vector<char> keypad[], int input[], string result, int i, 
 {
     string res2 = "";
     ofstream myfile;
-    myfile.open("output.txt");
+    myfile.open("11-outputFor11.txt", std::ios_base::app);
     myfile << res2 + result << "\n";
 
     if (i == n)
