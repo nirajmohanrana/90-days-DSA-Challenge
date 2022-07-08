@@ -21,3 +21,5 @@
 **Day 17 - 18**: Array Practice (on CodeStudio & LeetCode) `4.7.22 & 5.7.22|☑️`
 
 **Day 19 to 21**: Bit Manipulation & Practice `6.7.22 & 8.7.22|☑️`
+
+**Day 21**: Backtracking `⭕|8.7.22`
